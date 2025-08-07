@@ -4,25 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="63c07c23-6509-4105-a93e-e6553a018f66" name="Changes" comment="Feat : Project Setup">
-      <change beforePath="$PROJECT_DIR$/.idea/material_theme_project_new.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/material_theme_project_new.xml" afterDir="false" />
+    <list default="true" id="63c07c23-6509-4105-a93e-e6553a018f66" name="Changes" comment="Refactor: moved app to root">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/site-vitrine/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/site-vitrine/eslint.config.mjs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/site-vitrine/next.config.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/site-vitrine/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/site-vitrine/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/site-vitrine/postcss.config.mjs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/site-vitrine/public/file.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/site-vitrine/public/globe.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/site-vitrine/public/next.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/site-vitrine/public/vercel.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/site-vitrine/public/window.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/site-vitrine/src/app/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/site-vitrine/src/app/globals.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/site-vitrine/src/app/layout.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/site-vitrine/src/app/page.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/site-vitrine/tsconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,6 +32,10 @@
     &quot;accountId&quot;: &quot;4d6e3b52-c55c-4721-ad79-3383f0204719&quot;
   }
 }</component>
+  <component name="KubernetesApiPersistence"><![CDATA[{}]]></component>
+  <component name="KubernetesApiProvider"><![CDATA[{
+  "isMigrated": true
+}]]></component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="C:\xampp\php\php.exe" />
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
@@ -57,20 +46,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;com.codeium.enabled&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;feature/start&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Documents/fce_site&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "com.codeium.enabled": "true",
+    "git-widget-placeholder": "feature/start",
+    "last_opened_file_path": "C:/Documents/fce_site",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "settings.typescriptcompiler",
+    "ts.external.directory.path": "C:\\Documents\\fce_site\\node_modules\\typescript\\lib",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -89,7 +80,7 @@
       <updated>1752014479594</updated>
       <workItem from="1752014481479" duration="1302000" />
       <workItem from="1753732793915" duration="12000" />
-      <workItem from="1754575965019" duration="304000" />
+      <workItem from="1754575965019" duration="3516000" />
     </task>
     <task id="LOCAL-00001" summary="Feat : Project Setup">
       <option name="closed" value="true" />
@@ -99,7 +90,15 @@
       <option name="project" value="LOCAL" />
       <updated>1752015682534</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Refactor: moved app to root">
+      <option name="closed" value="true" />
+      <created>1754576450219</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1754576450219</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -107,6 +106,11 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Feat : Project Setup" />
-    <option name="LAST_COMMIT_MESSAGE" value="Feat : Project Setup" />
+    <MESSAGE value="Refactor: moved app to root" />
+    <option name="LAST_COMMIT_MESSAGE" value="Refactor: moved app to root" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
