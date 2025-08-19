@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="63c07c23-6509-4105-a93e-e6553a018f66" name="Changes" comment="Refactor: moved app to root">
+    <list default="true" id="63c07c23-6509-4105-a93e-e6553a018f66" name="Changes" comment="Feat : homePage">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,10 +30,10 @@
     &quot;accountId&quot;: &quot;4d6e3b52-c55c-4721-ad79-3383f0204719&quot;
   }
 }</component>
-  <component name="KubernetesApiPersistence"><![CDATA[{}]]></component>
-  <component name="KubernetesApiProvider"><![CDATA[{
-  "isMigrated": true
-}]]></component>
+  <component name="KubernetesApiPersistence">{}</component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="C:\xampp\php\php.exe" />
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
@@ -51,7 +49,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "com.codeium.enabled": "true",
     "git-widget-placeholder": "feature/start",
-    "last_opened_file_path": "C:/Documents/fce_site",
+    "last_opened_file_path": "C:/Documents/Extension chrome",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -80,7 +78,8 @@
       <updated>1752014479594</updated>
       <workItem from="1752014481479" duration="1302000" />
       <workItem from="1753732793915" duration="12000" />
-      <workItem from="1754575965019" duration="3516000" />
+      <workItem from="1754575965019" duration="3686000" />
+      <workItem from="1754669440685" duration="133000" />
     </task>
     <task id="LOCAL-00001" summary="Feat : Project Setup">
       <option name="closed" value="true" />
@@ -98,7 +97,15 @@
       <option name="project" value="LOCAL" />
       <updated>1754576450219</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Feat : homePage">
+      <option name="closed" value="true" />
+      <created>1754579612029</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1754579612029</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -107,7 +114,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Feat : Project Setup" />
     <MESSAGE value="Refactor: moved app to root" />
-    <option name="LAST_COMMIT_MESSAGE" value="Refactor: moved app to root" />
+    <MESSAGE value="Feat : homePage" />
+    <option name="LAST_COMMIT_MESSAGE" value="Feat : homePage" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
