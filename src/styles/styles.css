@@ -1,0 +1,128 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    background: linear-gradient(to bottom, #1f1f1f, #0a0a0a);
+    color: #ffffff;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex: 1;
+    padding: 2rem;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    padding: 1.5rem 2rem;
+    background-color: #101010;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+    margin-left: 3rem;
+}
+
+nav a {
+    color: #b2b2b2;
+    font-weight: normal;
+    text-decoration: none;
+    transition: color 0.3s ease;
+    padding: 0.5rem 1rem;
+}
+
+nav a.active {
+    color: #ffffff;
+    font-weight: bold;
+    background-color: #1f1f1f;
+}
+
+nav a:hover {
+    color: #ffffff;
+}
+
+footer {
+    background-color: #000000;
+    padding: 2rem;
+}
+
+footer p {
+    color: #6c6c6c;
+    margin: 0;
+    text-align: center;
+}
+
+footer .footer-content {
+    display: flex;
+    justify-content: space-around;
+    margin: 3rem 5rem;
+}
+
+footer .footer-content h2 {
+    color: #ffffff;
+    font-size: 1rem;
+    margin: 0;
+}
+
+footer .footer-socials {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+}
+
+footer .footer-socials a {
+    color: #b2b2b2;
+    font-weight: normal;
+    text-decoration: none;
+    transition: color 0.3s ease;
+    padding: 1rem 0;
+}
+
+footer .footer-socials a:hover {
+    color: #ffffff;
+}
+
+footer .footer-navigation {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+}
+
+footer .footer-navigation a {
+    color: #b2b2b2;
+    font-weight: normal;
+    text-decoration: none;
+    transition: color 0.3s ease;
+    padding: 1rem 0;
+}
+
+footer .footer-navigation a:hover {
+    color: #ffffff;
+}
+
+footer .footer-links {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+}
+
+footer .footer-links a {
+    color: #b2b2b2;
+    font-weight: normal;
+    text-decoration: none;
+    transition: color 0.3s ease;
+    padding: 1rem 0;
+}
+
+footer .footer-links a:hover {
+    color: #ffffff;
+}
