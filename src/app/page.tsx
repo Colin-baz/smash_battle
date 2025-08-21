@@ -1,4 +1,12 @@
+import Carousel from "@/components/Carousel";
+import LatestVideos from "@/components/LatestVideos";
 
-export default function Page() {
-  return <h1>Hello Next.js!</h1>
+export default function HomePage() {
+    return (
+        <main>
+            <Carousel />
+            <LatestVideos />
+        </main>
+    );
 }
+
