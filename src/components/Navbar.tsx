@@ -13,7 +13,6 @@ export default function Navbar() {
                 <ul>
                     <li><Link href="/">Accueil</Link></li>
                     <li><Link href="/episodes">Épisodes</Link></li>
-                    <li><Link href="/personnages">Personnages</Link></li>
                     <li><Link href="/informations">Informations</Link></li>
                 </ul>
             </nav>

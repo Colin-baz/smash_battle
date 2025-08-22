@@ -45,7 +45,7 @@ export default function FeaturedVideos() {
 
     return (
         <section className="latest-videos">
-            <h2>Derniers épisodes sortis</h2>
+            <h2>Les derniers épisodes</h2>
             <VideoGrid videos={videos} />
         </section>
     );
