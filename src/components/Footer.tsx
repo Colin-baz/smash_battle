@@ -12,15 +12,14 @@ export default function Footer() {
                 </div>
                 <ul className="footer-socials">
                     <h2>Réseaux Sociaux</h2>
-                    <li><Link href="https://">YouTube</Link></li>
-                    <li><Link href="https://">Instagram</Link></li>
-                    <li><Link href="https://">TikTok</Link></li>
+                    <li><Link href="https://www.youtube.com/@Fishy_Animation" target="_blank">YouTube</Link></li>
+                    <li><Link href="https://www.instagram.com/fishyanimation/" target="_blank">Instagram</Link></li>
+                    <li><Link href="https://www.tiktok.com/@fishy_animation" target="_blank">TikTok</Link></li>
                 </ul>
                 <ul className="footer-navigation">
                     <h2>Navigation</h2>
                     <li><Link href="/">Accueil</Link></li>
                     <li><Link href="/episodes">Épisodes</Link></li>
-                    <li><Link href="/personnages">Personnages</Link></li>
                     <li><Link href="/informations">Informations</Link></li>
                 </ul>
                 <ul className="footer-links">

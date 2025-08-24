@@ -2,6 +2,7 @@
 
 import { useEffect, useState } from "react";
 import VideoGrid from "@/components/VideoGrid";
+import Link from "next/link";
 
 interface Video {
     id: string;
@@ -47,6 +48,9 @@ export default function FeaturedVideos() {
         <section className="latest-videos">
             <h2>Les derniers épisodes</h2>
             <VideoGrid videos={videos} />
+            <Link href="/episodes">
+                <button className="buttons">Voir plus</button>
+            </Link>
         </section>
     );
 }

@@ -34,7 +34,7 @@ export default function Carousel() {
                                 japonaise et à plusieurs jeux vidéo.
                             </p>
                             <a href="" rel="">
-                                <button>En savoir plus</button>
+                                <button className="buttons">En savoir plus</button>
                             </a>
                         </div>
                     </div>
@@ -49,7 +49,7 @@ export default function Carousel() {
                         <div className="slide-content">
                             <h2>Retrouvez la chaîne YouTube FishyAnimation</h2>
                             <a href="https://www.youtube.com/@Fishy_Animation" target="_blank" rel="noopener noreferrer">
-                                <button>Consulter la chaîne</button>
+                                <button className="buttons">Consulter la chaîne</button>
                             </a>
                         </div>
                     </div>

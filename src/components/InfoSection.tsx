@@ -18,7 +18,7 @@ export default function InfoSection() {
                     à l’animation japonaise.
                 </p>
                 <Link href="/informations">
-                    <button className="info-button">En savoir plus</button>
+                    <button className="buttons">En savoir plus</button>
                 </Link>
             </div>
         </section>

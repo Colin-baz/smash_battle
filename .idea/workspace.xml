@@ -4,7 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="63c07c23-6509-4105-a93e-e6553a018f66" name="Changes" comment="Feat : pages, components and .env.local" />
+    <list default="true" id="63c07c23-6509-4105-a93e-e6553a018f66" name="Changes" comment="Feat : Information Section">
+      <change afterPath="$PROJECT_DIR$/public/images/instagram.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/tik-tok.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Smash_Battle_site.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/episodes/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/episodes/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/personnages/page.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Carousel.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Carousel.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Footer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Footer.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/InfoSection.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/InfoSection.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/LatestVideos.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/LatestVideos.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Navbar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navbar.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/VideoCard.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/styles.css" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -38,26 +53,30 @@
   &quot;associatedIndex&quot;: 7
 }</component>
   <component name="ProjectId" id="2zbzI90JgfIKfppHmzp2SCdNxAz" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "com.codeium.enabled": "true",
-    "git-widget-placeholder": "feature/layout",
-    "last_opened_file_path": "C:/Documents/Extension chrome",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "settings.typescriptcompiler",
-    "ts.external.directory.path": "C:\\Documents\\fce_site\\node_modules\\typescript\\lib",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;com.codeium.enabled&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;feature/homepage&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Documents/Extension chrome&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;settings.typescriptcompiler&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\Documents\\fce_site\\node_modules\\typescript\\lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -78,7 +97,8 @@
       <workItem from="1753732793915" duration="12000" />
       <workItem from="1754575965019" duration="3686000" />
       <workItem from="1754669440685" duration="133000" />
-      <workItem from="1755610553888" duration="2250000" />
+      <workItem from="1755610553888" duration="23457000" />
+      <workItem from="1755992486212" duration="4572000" />
     </task>
     <task id="LOCAL-00001" summary="Feat : Project Setup">
       <option name="closed" value="true" />
@@ -112,18 +132,46 @@
       <option name="project" value="LOCAL" />
       <updated>1755613366794</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Feat : footer, navbar, logo">
+      <option name="closed" value="true" />
+      <created>1755700176155</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1755700176155</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Feat : homepage (carousel, latest episodes components)">
+      <option name="closed" value="true" />
+      <created>1755789434829</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1755789434829</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Feat : Information Section">
+      <option name="closed" value="true" />
+      <created>1755871963513</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1755871963513</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Feat : Project Setup" />
     <MESSAGE value="Refactor: moved app to root" />
     <MESSAGE value="Feat : homePage" />
     <MESSAGE value="Feat : pages, components and .env.local" />
-    <option name="LAST_COMMIT_MESSAGE" value="Feat : pages, components and .env.local" />
+    <MESSAGE value="Feat : footer, navbar, logo" />
+    <MESSAGE value="Feat : homepage (carousel, latest episodes components)" />
+    <MESSAGE value="Feat : Information Section" />
+    <option name="LAST_COMMIT_MESSAGE" value="Feat : Information Section" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
